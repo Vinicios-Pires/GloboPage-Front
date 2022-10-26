@@ -1,0 +1,202 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Encode Sans", sans-serif;
+}
+
+.logo {
+	display: flex;
+	width: 100vw;
+	justify-content: center;
+	align-items: center;
+	margin: 22px 0px 22px 0px;
+}
+
+.logo img {
+	cursor: pointer;
+}
+
+.sep-horizontal {
+	background-color: #ebedef;
+	height: 1px;
+	margin: 20px 0;
+}
+
+.sep-vertical {
+	background-color: #ebedef;
+	margin: 0px 35px 0 35px;
+	width: 1px;
+}
+
+.navbar {
+	display: flex;
+	width: 100vw;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+
+	font-weight: 700;
+	font-size: 19px;
+	line-height: 24px;
+	letter-spacing: -0.02em;
+}
+
+.g1 {
+	color: #c3170c;
+}
+
+.oglobo {
+	color: #1e4b9b;
+}
+
+.valor {
+	color: #006766;
+}
+
+.ge {
+	color: #07aa47;
+}
+
+.cartola {
+	color: #e3662b;
+}
+
+.globoplay {
+	color: #fb0735;
+}
+
+.dropz {
+	color: #ff75bb;
+}
+
+.gshow {
+	color: #ec7d00;
+}
+
+.quem {
+	color: #323333;
+}
+
+.receitas {
+	color: #a81d83;
+}
+
+.cor-noticias-esquerda {
+	color: #c4170c;
+}
+
+.cor-noticias-esportes {
+	color: #16ae54;
+}
+
+.cor-noticias-entretenimento {
+	color: #ec8006;
+}
+
+a:hover {
+	opacity: 50%;
+}
+
+.noticias {
+	display: flex;
+	justify-content: center;
+	text-align: left;
+}
+
+.noticias-esquerda {
+	width: 50vw;
+}
+
+.noticias-esporte {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	width: 20vw;
+}
+
+.noticias-entretenimento {
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+}
+
+.manchete-principal {
+	font-weight: 700;
+	font-size: 52px;
+	line-height: 67px;
+
+	letter-spacing: -0.01em;
+
+	color: #c4160c;
+}
+
+.mini-noticias-principais {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+	letter-spacing: -0.01em;
+
+	color: #303134;
+}
+
+.noticias-estrutura {
+	display: flex;
+	gap: 24px;
+}
+
+.estrutura-noticia {
+	display: flex;
+	flex-direction: column;
+}
+
+.img-noticias-esquerda {
+	width: 193px;
+	height: 110px;
+	border-radius: 12px;
+}
+
+.img-noticias-esportes {
+	width: 240px;
+	height: 128px;
+
+	border-radius: 12px;
+}
+
+.titulo {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 18px;
+	letter-spacing: -0.02em;
+
+	margin-top: 11px;
+}
+
+.manchete {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 25px;
+	letter-spacing: -0.045em;
+
+	color: #2f3134;
+
+	margin-top: 6px;
+}
+
+.manchete-secundaria {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 19px;
+
+	letter-spacing: -0.048em;
+
+	color: #2f3134;
+
+	margin-top: 5px;
+}
+
+img:hover {
+	cursor: pointer;
+	opacity: 50%;
+}
